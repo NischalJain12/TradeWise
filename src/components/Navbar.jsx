@@ -40,7 +40,15 @@ function Navbar({ darkMode, setDarkMode }) {
         to="/"
         className="logo"
       >
-        TradeWise
+        <div className="logo-section">
+  <img
+    src="/logo.png"
+    alt="TradeWise Logo"
+    className="logo-img"
+  />
+
+  <h1>TradeWise</h1>
+</div>
       </Link>
 
       {/* NAV LINKS */}

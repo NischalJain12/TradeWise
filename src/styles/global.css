@@ -930,3 +930,15 @@ td{
   color:var(--subtext);
   font-size:18px;
 }
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
