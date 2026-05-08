@@ -40,7 +40,7 @@ function Navbar({ darkMode, setDarkMode }) {
         to="/"
         className="logo"
       >
-        MarketPulse
+        TradeWise
       </Link>
 
       {/* NAV LINKS */}
